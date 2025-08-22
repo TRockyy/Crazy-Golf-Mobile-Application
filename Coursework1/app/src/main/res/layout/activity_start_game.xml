@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartGame">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="E N T E R   N A M E S  ◽ 1 - 4:"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/player1"
+            android:layout_width="match_parent"
+            android:textColor="@color/player1"
+            android:layout_height="48dp"
+            android:textSize="25dp"
+            android:ems="10"
+            android:backgroundTint="@color/player1"
+            android:hint="Player1"
+            android:layout_marginBottom="20dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/player2"
+            android:layout_width="match_parent"
+            android:textColor="@color/player2"
+            android:layout_height="48dp"
+            android:textSize="25dp"
+            android:backgroundTint="@color/player2"
+            android:ems="10"
+            android:layout_marginBottom="20dp"
+            android:hint="Player2"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/player3"
+            android:layout_width="match_parent"
+            android:textColor="@color/player3"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/player3"
+            android:textSize="25dp"
+            android:ems="10"
+            android:layout_marginBottom="20dp"
+            android:hint="Player3"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/player4"
+            android:layout_width="match_parent"
+            android:textColor="@color/player4"
+            android:backgroundTint="@color/player4"
+            android:layout_height="48dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Player4"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="date"
+            android:textColor="@color/white"
+            android:typeface="monospace"
+            android:textStyle="italic"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/errortext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:backgroundTint="@color/white"
+            android:text="" />
+
+
+        <Button
+            android:id="@+id/submitname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="holes"
+            android:text="S U B M I T "
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
