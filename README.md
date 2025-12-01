@@ -29,7 +29,7 @@ A simple Android app for tracking Crazy Golf scores with persistent storage usin
 ---
   
 ## Installation
-- git clone https://github.com/yourusername/crazy-golf-app.git
+- git clone this repository 
 - Open the project in Android Studio, let Gradle sync, and run on an emulator or device.
 
 
